@@ -1,0 +1,56 @@
+
+
+January 16, 2020
+- Added logic to close a webview video ad if play confirmation was not received
+
+January 14, 2020
+- Refactored methods and variables to use the term interstial rather than standard or non-rewarded
+
+December 9, 2019
+- Added init params to webview videos when starting
+
+November 27, 2019
+- Added verbose logging option. When verbose logging is turned on, lots of info will be logged to the colsole such as response data from api calls.
+
+November 26, 2019
+- Updated market url for google play store.
+- Added logic for ignoring multiple taps on webview ads
+
+November 21, 2019
+- Added support for videos playing inside webviews with sound.
+
+March 14, 2019 - Version 1.3.04
+-Offer wall and android manifest bugfixes
+
+March 6, 2019 - Version 1.3.03
+-New version of the webview logic for android. It now opens in a separate activity
+-AdGem.verboseLogging added. Set this to true to see lots of logs.
+-loadBeforeShowing defaults to true for android
+
+Feb 18, 2019 - Version 1.3.02
+-Changed the overall namespace to AdGemUnity
+-Changed loadBeforeShowing variable to AdGem.loadOfferWallBeforeShowing
+-Moved delegate definitions from AdGemPlugin to AdGem
+
+Feb 12, 2019 - Version 1.3.01
+-Added loadBeforeShowing parameter to allow you to wait for the offerwall to be loaded before it animates onto the screen
+
+Feb 8, 2019 - Version 1.2.102
+-Replaced uniwebview with a custom webview plugin.
+
+Jan 16, 2019 - Version 1.2.102
+-Started using the namespace AdGem.
+
+Nov 16, 2018 - Version 1.2.101
+-Eliminated the need to have an update function running on the adgemofferwall object.
+-Implemented a "back off" approach to checking if internet connection has been restored in order to load the offer wall web page.
+
+Nov 12, 2018 - Version 1.2.1
+-Flag added: openOfferWallInBrowser. This causes the offer wall to always be opened in a browser, even if the current device is modern.
+-If the device is android 4 or below, or if it is iOS 8 or below, the offer wall will open in a browser
+
+Nov 8, 2018 - Version 1.2.0
+-This changelog now exists
+-Image assets are no longer compressed, so we shouldn't see any more jpg-y artifacts
+-New property: AdGemPlugin.alwaysOpenAppStoreInBrowser - when set to true, the app store will be opened via browser instead of directly from the app
+

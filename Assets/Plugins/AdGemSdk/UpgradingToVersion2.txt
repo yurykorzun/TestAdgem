@@ -1,0 +1,7 @@
+
+1) Delete the adgem folder from the plugins folder.
+2) Delete the old adgem prefab from any scene that was using it.
+3) Import the new sdk package.
+4) Add the new version of the adgem prefab to the first scene in your app.
+5) Rename any delegate functions regarding non-rewarded video events. The new naming uses the word Interstitial rather than nonRewarded or standard.
+
